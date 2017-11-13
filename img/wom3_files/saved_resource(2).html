@@ -1,0 +1,21 @@
+
+<!-- saved from url=(0052)https://www.adidas.com/us/archive-hoodie/BR0288.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="referrer" content="no-referrer"></head><body style="margin:0;"><script>
+// This library tag assumes fbq is available on the page.
+// All targeted segments should also be set as OR rules in SuperTag
+(function(){
+   if (window.fbq) {
+      var lsSegs = Krux('get','user_segments') || []; // Segs in LS
+      var targetSegIds = 'rwvdyp78f,rwvedryk2,rwvdr4hof,rwvd3m1hb,rwvd767yj,rwu96hp9q,rvrcohzq2,rwu94r61e,rvr3fetjr,rwu92etei,rvr3ht2nk,rwu9z5iwg,rvntox4qw,rwu9ww9ki,rvr3tq6ft,rwu9ua2hr,rvr3wutxp,rvkaffjw2,rwvcqq30b,rv7j3t06s,rrgzt493d,rwvcmbhkm,rts7kc1c3,rrgzpo1e3,rvkaffjw2,r5dv8aac0,r0q7sdp1s,r6vuovo8x,r6km3f3vj'.split(','); // Segs to target
+
+      targetSegIds.map(function(seg) {
+         if(lsSegs.indexOf(seg) !== -1) {
+            fbq('track', 'ViewContent', {
+                  segment_id: seg 
+               }
+            );
+         }
+      })
+   }
+})();
+</script></body></html>

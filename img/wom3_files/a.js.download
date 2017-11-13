@@ -1,0 +1,9 @@
+/* URL: https://4599367.fls.doubleclick.net/activityi;dc_pre=CIPK5ZqCpNcCFaZuwQodnrIHfg;src=4599367;type=products;cat=prddtl;u1=PRODUCT%7CARCHIVE%20HOODIE%20(BR0288);u3=WOMEN;u4=LIFESTYLE;u6=WHITE;u7=DTF49;u8=INLINE;u9=ORIGINALS;u11=0;u12=0;u14=FALSE;u16=APPAREL;u17=DTF49;u18=85.00;u19=BR0288;u20=CRTOH2H;u21=FULL%20PRICE;u23=;ord=1;num=8461168790851? */
+/* Extended Data: ab_test_id = CRTOH2H, is_custom = FALSE, mobile_items = 0, mobile_transactions = 0, order_total = , page_name = PRODUCT%7CARCHIVE%20HOODIE%20(BR0288), product_brand = ORIGINALS, product_category_list = APPAREL, product_colour_list = WHITE, product_gender = WOMEN, product_group = INLINE, product_id_list = BR0288, product_model_id = DTF49, product_model_id_list = DTF49, product_price_list = 85.00, product_quantitiy = , product_size_list = , product_sport = LIFESTYLE, tag = 11237203604141, total_products = , voucher_code =  */
+/* Actions Fired:
+* Id = 11237203604141, Name = Performance - Product Details Page - US
+*/
+/* Third-Party Tags Fired:
+None
+*/
+!function(){function e(e){function t(e){for(var a=e.childNodes,o=0;o<a.length;o++)t(a[o]);if(e.tagName===n){var c=document.createElement(n);e.getAttribute(r)&&c.setAttribute(r,e.getAttribute(r)),c.text=e.text,e.parentNode.insertBefore(c,e),e.parentNode.removeChild(e)}}var n="SCRIPT",r="src",a=document.createDocumentFragment(),o=document.createElement("I");a.appendChild(o),o.innerHTML='<em style="display:none;">&nbsp;</em>'+e,t(o);var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c)}var t="";if(t){var n=document.write;document.write=function(t){try{n(t)}catch(r){e(t)}},e(t)}}();

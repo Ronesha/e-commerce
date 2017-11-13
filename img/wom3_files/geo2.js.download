@@ -1,0 +1,16 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "DECATUR",
+      'continent': "NA",
+      'country': "US",
+      'region': "AL"
+    },
+    'ip':"97.80.236.53"
+  }]);
+})
+//
+()
+
+;
